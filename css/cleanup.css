@@ -1,1 +1,17 @@
 /* write your override styles here */
+tag-1 {
+    background: url(..image/tag-1.png) no repeat;
+    z-index: 7;
+    display: block;
+}
+#wall.tag-1 {
+    display: none;
+}
+.parent {
+    background-color: aliceblue;
+    margin: auto;
+    z-index: auto;
+    display: flex;
+}
+nav > a :hover ::before
+ul#primary-nav li.active
